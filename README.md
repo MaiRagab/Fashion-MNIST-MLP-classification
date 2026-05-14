@@ -1,8 +1,9 @@
- 👩‍💻 Neural Network (MLP) Project
 
- 👤 Name: Mai Ragab Khalaf
+# 👩‍💻 Neural Network (MLP) Project
 
- 📌 Project Overview
+## 👤 Name: Mai Ragab Khalaf
+
+## 📌 Project Overview
 This project implements a Multilayer Perceptron (MLP) using PyTorch as part of a Neural Networks course.
 
 The goal is to perform image classification on the Fashion-MNIST dataset, which contains grayscale images of clothing items belonging to 10 different classes.
@@ -11,7 +12,7 @@ Two different experiments were conducted by modifying the learning rate and the 
 
 ---
 
- 📊 Dataset Description
+## 📊 Dataset Description
 The Fashion-MNIST dataset is used in this project. It consists of:
 - 60,000 training images
 - 10,000 test images
@@ -22,7 +23,7 @@ The dataset is loaded using torchvision and split into training, validation, and
 
 ---
 
- ⚙️ Data Preprocessing
+## ⚙️ Data Preprocessing
 The following preprocessing steps were applied:
 - Conversion of images to tensors
 - Normalization to stabilize training
@@ -30,7 +31,7 @@ The following preprocessing steps were applied:
 
 ---
 
- 🧠 Model Architecture
+## 🧠 Model Architecture
 
 ### Experiment 1
 - Input layer: Flatten (28x28 = 784 features)
@@ -54,7 +55,7 @@ The following preprocessing steps were applied:
 
 ---
 
- 🏋️ Training Process
+## 🏋️ Training Process
 The model was trained using:
 - Optimizer: Adam
 - Loss function: CrossEntropyLoss
@@ -67,21 +68,21 @@ During training, both loss and accuracy were monitored for:
 
 ---
 
- 🔬 Experiments Summary
+## 🔬 Experiments Summary
 Two experiments were conducted:
 - Experiment 1: Baseline model with 2 hidden layers and LR = 0.001
 - Experiment 2: Deeper model with 3 hidden layers and LR = 0.0001
 
 ---
 
- 📈 Results
+## 📈 Results
 Both models achieved strong performance on the dataset:
 - Accuracy range: ~88% – 89%
 - Experiment 2 showed slightly better generalization on validation and test sets.
 
 ---
 
-📊 Visualizations
+## 📊 Visualizations
 The following plots were included:
 - Training vs Validation Loss curves
 - Training vs Validation Accuracy curves
@@ -89,7 +90,7 @@ The following plots were included:
 
 ---
 
- 🧪 Regularization Techniques
+## 🧪 Regularization Techniques
 To improve generalization and reduce overfitting, the following techniques were applied:
 - Dropout layers
 - Batch Normalization
@@ -97,11 +98,6 @@ To improve generalization and reduce overfitting, the following techniques were 
 ---
 
 ## 🚀 How to Run
-
-
-📌 Notes
-
-This project is implemented using PyTorch and follows a standard neural network pipeline including training, validation, and evaluation phases
 Install dependencies:
 ```bash
 pip install torch torchvision matplotlib pandas
