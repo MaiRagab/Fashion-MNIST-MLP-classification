@@ -101,3 +101,9 @@ To improve generalization and reduce overfitting, the following techniques were 
 Install dependencies:
 ```bash
 pip install torch torchvision matplotlib pandas
+
+
+
+📌 Notes
+
+This project is implemented using PyTorch and follows a standard neural network pipeline including training, validation, and evaluation phases
